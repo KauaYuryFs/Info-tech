@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172554">
+  <title>Entrar | Info Tech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body class="auth-page">
+  <header class="auth-header container"><a class="brand" href="index.html" aria-label="Info Tech — início"><span class="brand-mark">i<span>t</span></span><span class="brand-name">INFO<span>TECH</span></span></a><a class="back-link" href="index.html">← Voltar para a loja</a></header>
+  <main class="auth-layout">
+    <section class="auth-art">
+      <div class="auth-art-content"><span class="eyebrow">BOM TER VOCÊ POR AQUI</span><h1>Sua tecnologia<br>começa <span>aqui.</span></h1><p>Entre para acompanhar seus pedidos e descobrir as novidades feitas para o seu setup.</p><div class="auth-art-orb"></div><div class="auth-art-badge"><span>✦</span> Tecnologia para ir mais longe</div></div>
+    </section>
+    <section class="auth-panel"><div class="auth-card">
+      <div class="auth-mobile-brand"><a class="brand" href="index.html"><span class="brand-mark">i<span>t</span></span><span class="brand-name">INFO<span>TECH</span></span></a></div>
+      <span class="eyebrow">ACESSE SUA CONTA</span><h2>Bem-vindo à Info Tech</h2><p class="auth-subtitle">Sua tecnologia começa aqui</p>
+      <form class="auth-form" data-auth-form="login">
+        <label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="voce@exemplo.com.br" autocomplete="email" required>
+        <div class="password-label"><label for="password">Senha</label><a href="#" data-toast="A recuperação de senha estará disponível quando a conta estiver conectada.">Esqueci minha senha</a></div>
+        <div class="password-wrap"><input id="password" name="senha" type="password" placeholder="Digite sua senha" autocomplete="current-password" required minlength="8"><button class="password-toggle" type="button" aria-label="Mostrar senha" data-password-toggle="password">◉</button></div>
+        <label class="check-row"><input type="checkbox" name="remember"><span class="custom-check"></span><span>Lembrar de mim</span></label>
+        <button class="button button-primary auth-submit" type="submit">Entrar <span>→</span></button>
+      </form>
+      <p class="auth-switch">Ainda não tem uma conta? <a href="cadastro.html">Criar conta</a></p>
+      <div class="auth-security"><span>♢</span> Seus dados estão protegidos</div>
+    </div></section>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

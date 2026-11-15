@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172554">
+  <title>Criar conta | Info Tech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body class="auth-page">
+  <header class="auth-header container"><a class="brand" href="index.html" aria-label="Info Tech — início"><span class="brand-mark">i<span>t</span></span><span class="brand-name">INFO<span>TECH</span></span></a><a class="back-link" href="index.html">← Voltar para a loja</a></header>
+  <main class="auth-layout">
+    <section class="auth-art signup-art"><div class="auth-art-content"><span class="eyebrow">UM UNIVERSO DE POSSIBILIDADES</span><h1>Seu próximo<br>setup começa <span>agora.</span></h1><p>Crie sua conta e fique por dentro das novidades, ofertas e tudo o que há de novo em tecnologia.</p><div class="auth-art-orb"></div><div class="auth-art-badge"><span>✦</span> A tecnologia do seu jeito</div></div></section>
+    <section class="auth-panel"><div class="auth-card">
+      <div class="auth-mobile-brand"><a class="brand" href="index.html"><span class="brand-mark">i<span>t</span></span><span class="brand-name">INFO<span>TECH</span></span></a></div>
+      <span class="eyebrow">É BOM TER VOCÊ COM A GENTE</span><h2>Crie sua conta</h2><p class="auth-subtitle">Leva só um minutinho.</p>
+      <form class="auth-form" data-auth-form="signup">
+        <label for="name">Nome completo</label><input id="name" name="nome" type="text" placeholder="Como podemos te chamar?" autocomplete="name" required minlength="2">
+        <label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="voce@exemplo.com.br" autocomplete="email" required>
+        <label for="password">Senha</label><div class="password-wrap"><input id="password" name="senha" type="password" placeholder="Crie uma senha (mín. 8 caracteres)" autocomplete="new-password" required minlength="8"><button class="password-toggle" type="button" aria-label="Mostrar senha" data-password-toggle="password">◉</button></div>
+        <label for="confirm-password">Confirmar senha</label><div class="password-wrap"><input id="confirm-password" name="confirm-password" type="password" placeholder="Digite sua senha novamente" autocomplete="new-password" required minlength="8"><button class="password-toggle" type="button" aria-label="Mostrar senha" data-password-toggle="confirm-password">◉</button></div>
+        <label class="check-row terms-row"><input type="checkbox" name="terms" required><span class="custom-check"></span><span>Li e aceito os <a href="#termos" data-toast="Os termos serão publicados quando a loja entrar em operação.">termos de uso</a> e a política de privacidade.</span></label>
+        <button class="button button-primary auth-submit" type="submit">Criar minha conta <span>→</span></button>
+      </form>
+      <p class="auth-switch">Já tem uma conta? <a href="login.html">Entrar</a></p>
+      <div class="auth-security"><span>♢</span> Seus dados estão protegidos</div>
+    </div></section>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

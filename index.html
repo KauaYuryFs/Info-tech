@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172554">
+  <meta name="description" content="Info Tech — tecnologia para ir mais longe. Descubra produtos para o seu setup.">
+  <title>Info Tech | Tecnologia para ir mais longe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Tecnologia de verdade, entrega para todo o Brasil <span>✦</span> Parcele em até 10x</div>
+  <header class="site-header">
+    <div class="header-main container">
+      <a class="brand" href="index.html" aria-label="Info Tech — página inicial"><span class="brand-mark">i<span>t</span></span><span class="brand-name">INFO<span>TECH</span></span></a>
+      <form class="search-form" role="search">
+        <label class="sr-only" for="site-search">Buscar produtos</label>
+        <input id="site-search" type="search" placeholder="O que você está procurando?" autocomplete="off">
+        <button type="submit" aria-label="Buscar">⌕</button>
+      </form>
+      <nav class="header-actions" aria-label="Acesso rápido">
+        <a class="header-action account-action" data-account-link href="login.html"><span class="action-icon">♙</span><span><small data-account-greeting>Olá, visitante</small><strong data-account-label>Minha conta</strong></span></a>
+        <a class="header-action orders-action" href="pedidos.html"><span class="action-icon">▤</span><span><small>Acompanhe</small><strong>Meus pedidos</strong></span></a>
+        <button class="header-action favorite-action" type="button" data-toast="Seus favoritos aparecem aqui."><span class="action-icon">♡</span><span><small>Seus</small><strong>Favoritos</strong></span><b class="count-badge favorite-count">0</b></button>
+        <a class="header-action cart-action" href="carrinho.html" aria-label="Abrir carrinho"><span class="action-icon">♧</span><span><small>Seu</small><strong>Carrinho</strong></span><b class="count-badge cart-count">0</b></a>
+      </nav>
+    </div>
+    <nav class="category-nav" aria-label="Categorias">
+      <div class="container category-nav-inner">
+        <a href="#produtos" data-category="Todos">☰ <strong>Departamentos</strong></a>
+        <a href="#produtos" data-category="Monitores">Monitores</a><a href="#produtos" data-category="Mouses">Mouses</a>
+        <a href="#produtos" data-category="Teclados">Teclados</a><a href="#produtos" data-category="Headsets">Headsets</a>
+        <a href="#produtos" data-category="Notebooks">Notebooks</a><a href="#produtos" data-category="Computadores">Computadores</a>
+        <a href="#produtos" data-category="Redes">Redes e conectividade</a><a href="#produtos" data-category="Acessórios">Acessórios</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> SEU PRÓXIMO NÍVEL COMEÇA AQUI</span>
+        <h1>TECNOLOGIA<br>PARA IR <span>MAIS LONGE.</span></h1>
+        <p>Encontre os melhores equipamentos para seu setup.</p>
+        <a class="button button-light" href="#produtos">Explorar produtos <span>↗</span></a>
+        <div class="hero-proof"><span class="proof-stars">★★★★★</span><span>Uma experiência feita para quem entende de tecnologia</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="hero-product-image"><img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=1000&q=85" alt=""></div>
+        <div class="hero-chip"><span>✦</span><div><strong>Seu setup,</strong><small>do seu jeito.</small></div></div>
+        <div class="hero-floating">IT<span>®</span></div>
+      </div>
+      <div class="hero-pagination"><span class="active"></span><span></span><span></span></div>
+    </section>
+
+    <section class="benefits container" aria-label="Vantagens Info Tech">
+      <div class="benefit"><span class="benefit-icon">↗</span><div><strong>Entrega para todo o Brasil</strong><small>Frete grátis a partir de R$ 299</small></div></div>
+      <div class="benefit"><span class="benefit-icon">▣</span><div><strong>Compra segura</strong><small>Seus dados sempre protegidos</small></div></div>
+      <div class="benefit"><span class="benefit-icon">◷</span><div><strong>Até 10x sem juros</strong><small>Mais facilidade para você</small></div></div>
+      <div class="benefit"><span class="benefit-icon">☏</span><div><strong>Suporte especializado</strong><small>Gente que entende do assunto</small></div></div>
+    </section>
+
+    <section class="section container" id="produtos">
+      <div class="section-heading">
+        <div><span class="eyebrow">ESCOLHAS QUE FAZEM A DIFERENÇA</span><h2>Encontre o seu próximo <span>favorito.</span></h2></div>
+        <a class="text-link" href="#produtos" data-clear-filter>Ver todos os produtos <span>→</span></a>
+      </div>
+      <div class="filter-pills" aria-label="Filtrar produtos">
+        <button class="filter-pill active" type="button" data-category="Todos">Todos</button>
+        <button class="filter-pill" type="button" data-category="Monitores">Monitores</button>
+        <button class="filter-pill" type="button" data-category="Mouses">Mouses</button>
+        <button class="filter-pill" type="button" data-category="Teclados">Teclados</button>
+        <button class="filter-pill" type="button" data-category="Headsets">Headsets</button>
+        <button class="filter-pill" type="button" data-category="Notebooks">Notebooks</button>
+        <button class="filter-pill" type="button" data-category="Redes">Redes</button>
+        <button class="filter-pill" type="button" data-category="Acessórios">Acessórios</button>
+      </div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <p class="empty-state" id="empty-state" hidden>Nenhum produto encontrado. Tente outra busca.</p>
+    </section>
+
+    <section class="promo-band container">
+      <div class="promo-copy"><span class="eyebrow">OFERTA DO DIA <span class="live-dot"></span></span><h2>Mais potência.<br><span>Menos espera.</span></h2><p>Seu próximo upgrade está a um clique de distância.</p><a class="button button-light" href="#produtos" data-category="Computadores">Ver ofertas <span>↗</span></a></div>
+      <div class="promo-visual"><span class="promo-glow"></span><img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=850&q=85" alt="Computador gamer de alto desempenho"></div>
+      <div class="promo-sticker">UP<br><small>GRADE</small></div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <div><span class="eyebrow">OS QUERIDINHOS DA COMUNIDADE</span><h2>Mais vendidos, <span>mais amados.</span></h2></div>
+        <a class="text-link" href="#produtos" data-clear-filter>Ver vitrine completa <span>→</span></a>
+      </div>
+      <div class="product-grid" id="bestseller-grid"></div>
+    </section>
+
+    <section class="section category-section">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="eyebrow">EXPLORE DO SEU JEITO</span><h2>Um universo de <span>possibilidades.</span></h2></div>
+        </div>
+        <div class="popular-categories">
+          <a class="popular-category category-display" href="#produtos" data-category="Monitores"><span>01 / IMAGEM</span><strong>Monitores</strong><i>↗</i></a>
+          <a class="popular-category category-setup" href="#produtos" data-category="Teclados"><span>02 / SETUP</span><strong>Periféricos</strong><i>↗</i></a>
+          <a class="popular-category category-mobile" href="#produtos" data-category="Notebooks"><span>03 / MOBILIDADE</span><strong>Notebooks</strong><i>↗</i></a>
+          <a class="popular-category category-network" href="#produtos" data-category="Redes"><span>04 / CONEXÃO</span><strong>Redes</strong><i>↗</i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="brands-section container">
+      <span class="eyebrow">TECNOLOGIA COM NOME E SOBRENOME</span>
+      <div class="brand-list" aria-label="Marcas em destaque"><span>logitech</span><span class="brand-asus">ASUS</span><span class="brand-razer">RAZER</span><span class="brand-hyperx">HyperX</span><span>JBL</span><span class="brand-lenovo">lenovo</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-about" id="sobre"><a class="brand brand-footer" href="index.html"><span class="brand-mark">i<span>t</span></span><span class="brand-name">INFO<span>TECH</span></span></a><p>Tecnologia para ir mais longe. As melhores escolhas para o seu dia a dia e para o seu próximo grande projeto.</p><div class="social-links"><a href="#contato" aria-label="Instagram">ig</a><a href="#contato" aria-label="YouTube">▶</a><a href="#contato" aria-label="Facebook">f</a></div></div>
+      <div class="footer-column"><strong>A Info Tech</strong><a href="#sobre">Sobre nós</a><a href="#sobre">Nossas lojas</a><a href="#sobre">Trabalhe conosco</a></div>
+      <div class="footer-column" id="atendimento"><strong>Precisa de ajuda?</strong><a href="#atendimento">Central de atendimento</a><a href="#atendimento">Trocas e devoluções</a><a href="#atendimento">Perguntas frequentes</a></div>
+      <div class="footer-column" id="contato"><strong>Fale com a gente</strong><a href="mailto:oi@infotech.com.br">oi@infotech.com.br</a><a href="tel:+551140044004">(11) 4004-4004</a><span>Seg a sex, das 9h às 18h</span></div>
+    </div>
+    <div class="footer-bottom"><div class="container"><span>© 2025 Info Tech. Todos os direitos reservados.</span><span>Feito para quem ama tecnologia <b>✦</b></span></div></div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

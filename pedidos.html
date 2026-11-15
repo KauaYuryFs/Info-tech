@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172554">
+  <meta name="description" content="Acompanhe seus pedidos Info Tech.">
+  <title>Meus pedidos | Info Tech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/pedidos.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Tecnologia de verdade, entrega para todo o Brasil <span>✦</span> Parcele em até 10x</div>
+  <header class="site-header">
+    <div class="header-main container cart-header-main">
+      <a class="brand" href="index.html" aria-label="Info Tech — página inicial"><span class="brand-mark">i<span>t</span></span><span class="brand-name">INFO<span>TECH</span></span></a>
+      <span class="cart-header-title">Meus pedidos</span>
+      <nav class="header-actions" aria-label="Acesso rápido">
+        <a class="header-action account-action" data-account-link href="login.html"><span class="action-icon">♙</span><span><small data-account-greeting>Olá, visitante</small><strong data-account-label>Minha conta</strong></span></a>
+        <a class="header-action" href="index.html"><span class="action-icon">←</span><span><small>Voltar para</small><strong>Continuar comprando</strong></span></a>
+        <a class="header-action cart-action" href="carrinho.html" aria-label="Carrinho"><span class="action-icon">♧</span><span><small>Seu</small><strong>Carrinho</strong></span><b class="count-badge cart-count">0</b></a>
+      </nav>
+    </div>
+  </header>
+  <main class="orders-page container">
+    <div class="cart-page-heading">
+      <div><span class="eyebrow">SEU HISTÓRICO</span><h1>Meus pedidos<span>.</span></h1><p>Acompanhe os pedidos feitos na Info Tech.</p></div>
+      <a class="text-link" href="index.html">← Continuar comprando</a>
+    </div>
+    <div id="orders-message" class="orders-message" role="status" aria-live="polite">Carregando seus pedidos...</div>
+    <section class="orders-list" id="orders-list" aria-live="polite"></section>
+  </main>
+  <footer class="site-footer cart-footer"><div class="footer-bottom"><div class="container"><span>© 2025 Info Tech. Todos os direitos reservados.</span><span>Feito para quem ama tecnologia <b>✦</b></span></div></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

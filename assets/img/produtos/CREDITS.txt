@@ -1,0 +1,37 @@
+Product photo credits
+
+monitor-gamer.jpg
+Source: Unsplash
+Photo: https://images.unsplash.com/photo-1593640408182-31c70c8268f5
+License: https://unsplash.com/license
+
+mouse-gamer.jpg
+Source: Unsplash
+Photo: https://images.unsplash.com/photo-1527814050087-3793815479db
+License: https://unsplash.com/license
+
+notebook.jpg
+Source: Unsplash
+Photo: https://images.unsplash.com/photo-1496181133206-80ce9b88a853
+License: https://unsplash.com/license
+
+teclado-mecanico.jpg
+Title: Mars Gaming MK6 gaming keyboard
+Author: Jorge Franganillo
+Source: https://commons.wikimedia.org/wiki/File:Mars_Gaming-_MK6_gaming_keyboard.jpg
+License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/)
+Note: Wikimedia thumbnail resized for web use.
+
+headset-gamer.jpg
+Title: ASUS ROG Delta GUNDAM EDITION
+Author: Solomon203
+Source: https://commons.wikimedia.org/wiki/File:ASUS_ROG_Delta_GUNDAM_EDITION_20210131a.jpg
+License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+Note: Wikimedia thumbnail resized for web use.
+
+ssd.jpg
+Title: Raspberry-Pi-SSD-Feature
+Author: SparkFun Electronics
+Source: https://commons.wikimedia.org/wiki/File:Raspberry-Pi-SSD-Feature.jpg
+License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/)
+Note: Wikimedia thumbnail resized for web use.
